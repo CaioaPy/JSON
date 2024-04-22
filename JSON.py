@@ -9,4 +9,6 @@ banco ={
     "Likes": ["games", "Series"]
     }
 
-json.dump(banco)
+data = json.dumps(banco,separators=(": ","-"))
+
+print(data)
